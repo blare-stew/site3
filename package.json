@@ -5,9 +5,9 @@
   "description": "blarestew website",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build --public-url ./ src/index.html",
+    "build": "rimraf dist && parcel build --public-url ./ src/index.html",
     "deploy": "ghpages blare-stew/site --path=dist",
-    "predeploy": "rimraf dist && npm run build"
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
