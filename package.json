@@ -20,12 +20,14 @@
   },
   "homepage": "https://blarestew.com",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "ghpages": "latest",
     "node-sass": "latest",
     "parcel-bundler": "latest",
     "rimraf": "latest"
   },
   "dependencies": {
+    "parcel-plugin-static-files-copy": "^2.2.1",
     "three": "latest"
   }
 }
