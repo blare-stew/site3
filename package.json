@@ -1,0 +1,26 @@
+{
+  "name": "@blarestew/site",
+  "private": true,
+  "version": "0.0.0",
+  "description": "blarestew website",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blare-stew/site.git"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blare-stew/site/issues"
+  },
+  "homepage": "https://blarestew.com",
+  "devDependencies": {
+    "parcel-bundler": "latest"
+  },
+  "dependencies": {
+    "three": "^0.108.0"
+  }
+}
