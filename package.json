@@ -21,10 +21,11 @@
   "homepage": "https://blarestew.com",
   "devDependencies": {
     "ghpages": "latest",
+    "node-sass": "latest",
     "parcel-bundler": "latest",
-    "rimraf": "^3.0.0"
+    "rimraf": "latest"
   },
   "dependencies": {
-    "three": "^0.108.0"
+    "three": "latest"
   }
 }
