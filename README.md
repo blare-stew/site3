@@ -1,6 +1,6 @@
 # site
 
-This is ideas for [the website](https://blarestew.com). For now, you can get to it [here](https://).
+This is ideas for [the website](https://blarestew.com). For now, you can get to it [here](https://blare-stew.github.io/site/).
 
 ## development
 

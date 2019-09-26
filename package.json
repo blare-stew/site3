@@ -5,7 +5,9 @@
   "description": "blarestew website",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build --public-url ./ src/index.html",
+    "deploy": "ghpages blare-stew/site --path=dist",
+    "predeploy": "rimraf dist && npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,9 @@
   },
   "homepage": "https://blarestew.com",
   "devDependencies": {
-    "parcel-bundler": "latest"
+    "ghpages": "latest",
+    "parcel-bundler": "latest",
+    "rimraf": "^3.0.0"
   },
   "dependencies": {
     "three": "^0.108.0"
