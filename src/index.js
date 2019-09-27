@@ -56,5 +56,4 @@ renderLoop(() => {
   camera.position.y = mouseY
   camera.lookAt(new THREE.Vector3(scene.position.x, scene.position.y + 1, scene.position.z))
   effect.render(scene, camera)
-  console.log(camera.position)
 })
