@@ -5,5 +5,3 @@
 1. Do not pass out here.
 1. Do not set liquids on electronics
 1. Do not unplug cables before turning off the power source.
-
-<img src="/assets/blarebear.jpg" width="100%" />
