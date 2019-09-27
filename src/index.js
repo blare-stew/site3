@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import SimpleReactRouter, { Link } from 'simple-react-router'
 import ReactMarkdown from 'react-markdown'
+import Helmet from 'react-helmet'
 
 import './index.scss'
 import articles from './articles'
@@ -15,7 +16,7 @@ const Header = ({ active = '' }) => {
     <header>
       <h1><a href='/'>Blare Stew</a></h1>
       <nav>
-        {menu.map(l => <Link key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
+        {menu.map(l => <Link className={l.slug === active ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
       </nav>
     </header>
   )
@@ -24,6 +25,12 @@ const Header = ({ active = '' }) => {
 const Page = ({ page }) => {
   return (
     <main>
+      <Helmet>
+        <meta property='og:title' content={page.attributes.title} />
+        <meta property='og:description' content={page.attributes.description} />
+        <meta property='og:image' content={page.attributes.image} />
+        <meta property='og:url' content={`https://blarestew.com${page.attributes.url}`} />
+      </Helmet>
       <Header active={page.attributes.slug} />
       <article>
         <ReactMarkdown escapeHtml={false} source={page.body} />
