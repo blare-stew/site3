@@ -3,6 +3,7 @@ title: Cladssified
 description: Super-secret BlAre-relatedInformation
 slug: classified.html
 inMenu: false
+image: https://blarestew.com/assets/GETOUT0002.jpg
 ---
 
 ## Prehistory:
