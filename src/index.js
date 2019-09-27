@@ -11,7 +11,9 @@ document.body.appendChild(container)
 const scene = new THREE.Scene()
 
 const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 100)
-camera.position.z = 3
+camera.position.x = 0.15
+camera.position.y = 1.5
+camera.position.z = 2
 camera.focalLength = 3
 
 const pointLight = new THREE.PointLight(0xffffff, 5)
@@ -40,16 +42,19 @@ effect.setSize(window.innerWidth || 2, window.innerHeight || 2)
 
 autoResize(camera, effect)
 
-let mouseX = 0
-let mouseY = 0
+let mouseX = camera.position.x
+let mouseY = camera.position.y
 document.addEventListener('mousemove', event => {
   mouseX = (event.clientX - (window.innerWidth / 2)) / 100
   mouseY = (event.clientY - (window.innerHeight / 2)) / 100
 }, false)
 
 renderLoop(() => {
-  camera.position.x += (mouseX - camera.position.x) * 0.05
-  camera.position.y += (-mouseY - camera.position.y) * 0.05
-  camera.lookAt(scene.position)
+  // camera.position.x += (mouseX - camera.position.x) * 0.05
+  // camera.position.y += (-mouseY - camera.position.y) * 0.05
+  camera.position.x = mouseX
+  camera.position.y = mouseY
+  camera.lookAt(new THREE.Vector3(scene.position.x, scene.position.y + 1, scene.position.z))
   effect.render(scene, camera)
+  console.log(camera.position)
 })
