@@ -1,8 +1,8 @@
+// extract front-matter/body & set defaults from files in /articles
+
 import fm from 'front-matter'
 
 import rawArticles from '../articles/*.md'
-
-// extract front-matter/body & set defaults
 
 const defaultMeta = fm(rawArticles['_meta']).attributes
 

@@ -30,6 +30,7 @@ const Page = ({ page }) => {
         <meta property='og:description' content={page.attributes.description} />
         <meta property='og:image' content={page.attributes.image} />
         <meta property='og:url' content={`https://blarestew.com${page.attributes.url}`} />
+        <title>{page.attributes.title}</title>
       </Helmet>
       <Header active={page.attributes.slug} />
       <article>
