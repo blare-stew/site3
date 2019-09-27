@@ -1,6 +1,7 @@
 ---
 title: ABout Blare Stew
 description: More info about BLaRe SteW
+slug: about.html
 ---
 
 ## Prehistory:

@@ -1,3 +1,7 @@
+---
+slug: reviews.html
+---
+
 <img src="assets/loud tasting and not really edible.jpg" width="100%" />
 
 <img src="assets/Productreview1.jpg" width="100%" />
