@@ -7,6 +7,7 @@
     "start": "parcel src/index.html",
     "build": "rimraf dist && parcel build src/index.html && echo 'blarestew.com' > dist/CNAME",
     "deploy": "ghpages blare-stew/site --path=dist",
+    "prebuild": "rimraf .prerenderrc && parcel build --target=node --no-source-maps src/prerender.js && node dist/prerender.js",
     "predeploy": "npm run build"
   },
   "repository": {
@@ -45,17 +46,6 @@
         "staticPath": "articles/assets",
         "staticOutDir": "assets"
       }
-    ]
-  },
-  "prerender": {
-    "routes": [
-      "/",
-      "/about.html",
-      "/reviews.html",
-      "/classified.html",
-      "/space",
-      "/video",
-      "/markdown"
     ]
   }
 }
