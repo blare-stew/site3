@@ -48,7 +48,6 @@
     "routes": [
       "/",
       "/about",
-      "/merch",
       "/reviews",
       "/space",
       "/video"
