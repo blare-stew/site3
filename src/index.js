@@ -13,10 +13,10 @@ const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 100)
 camera.position.z = 3
 camera.focalLength = 3
-const pointLight = new THREE.PointLight(0xffffff)
+
+const pointLight = new THREE.PointLight(0xffffff, 5)
 pointLight.position.set(1, 1, 2)
-camera.add(pointLight)
-scene.add(camera)
+scene.add(pointLight)
 
 var skyBox = new THREE.BoxGeometry(120, 120, 120)
 var textureCube = new THREE.MeshBasicMaterial({
