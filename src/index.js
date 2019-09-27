@@ -1,59 +1,46 @@
-import * as THREE from 'three'
-import { AnaglyphEffect } from 'three/examples/jsm/effects/AnaglyphEffect'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import React from 'react'
+import { render } from 'react-dom'
+import SimpleReactRouter from 'simple-react-router'
+import ReactMarkdown from 'react-markdown'
 
 import './index.scss'
-import { getRandomStarField, autoResize, renderLoop } from './utils'
+import articles from '../articles/*.md'
 
-const container = document.createElement('div')
-document.body.appendChild(container)
+// TODO: make this into a react component
+import './beareffect'
 
-const scene = new THREE.Scene()
+const Header = ({ active = '' }) => (
+  <header>
+    <h1><a href='/'>Blare Stew</a></h1>
+    <nav>
+      {Object.keys(articles).filter(l => l[0] !== '_').map(l => <a key={l} href={l}>{l}</a>)}
+    </nav>
+  </header>
+)
 
-const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.01, 100)
-camera.position.x = 0.15
-camera.position.y = 1.5
-camera.position.z = 2
-camera.focalLength = 3
+const Page = ({ name }) => (
+  <main>
+    <Header active={name} />
+    <article>
+      <ReactMarkdown escapeHtml={false} source={articles[name]} />
+    </article>
+  </main>
+)
 
-const pointLight = new THREE.PointLight(0xffffff, 5)
-pointLight.position.set(1, 1, 2)
-scene.add(pointLight)
+const HomePage = () => (
+  <main>
+    <Header />
+  </main>
+)
 
-var skyBox = new THREE.BoxGeometry(120, 120, 120)
-var textureCube = new THREE.MeshBasicMaterial({
-  map: getRandomStarField(600, 2048, 2048),
-  side: THREE.BackSide
-})
-var sky = new THREE.Mesh(skyBox, textureCube)
-scene.add(sky)
-scene.background = textureCube
+class App extends SimpleReactRouter {
+  routes (map) {
+    map('/', HomePage)
+    Object.keys(articles).forEach(l => {
+      const name = l[0] === '_' ? l.substr(1) : l
+      map(`/${name}`, () => <Page name={l} />)
+    })
+  }
+}
 
-const loader = new GLTFLoader()
-loader.load('bear.glb', gltf => {
-  scene.add(gltf.scene)
-}, undefined, error => console.error(error))
-
-const renderer = new THREE.WebGLRenderer()
-renderer.setPixelRatio(window.devicePixelRatio)
-container.appendChild(renderer.domElement)
-const effect = new AnaglyphEffect(renderer)
-effect.setSize(window.innerWidth || 2, window.innerHeight || 2)
-
-autoResize(camera, effect)
-
-let mouseX = camera.position.x
-let mouseY = camera.position.y
-document.addEventListener('mousemove', event => {
-  mouseX = (event.clientX - (window.innerWidth / 2)) / 100
-  mouseY = (event.clientY - (window.innerHeight / 2)) / 100
-}, false)
-
-renderLoop(() => {
-  // camera.position.x += (mouseX - camera.position.x) * 0.05
-  // camera.position.y += (-mouseY - camera.position.y) * 0.05
-  camera.position.x = mouseX
-  camera.position.y = mouseY
-  camera.lookAt(new THREE.Vector3(scene.position.x, scene.position.y + 1, scene.position.z))
-  effect.render(scene, camera)
-})
+render(<App />, document.getElementById('root'))

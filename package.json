@@ -24,10 +24,28 @@
     "ghpages": "latest",
     "node-sass": "latest",
     "parcel-bundler": "latest",
+    "parcel-plugin-markdown-string": "^1.4.0",
+    "parcel-plugin-prerender": "^1.4.1",
     "parcel-plugin-static-files-copy": "latest",
     "rimraf": "latest"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-markdown": "^4.2.2",
+    "simple-react-router": "0.0.17",
     "three": "latest"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "articles/assets",
+        "staticOutDir": "assets"
+      }
+    ]
+  },
+  "prerender": {
+    "routes": ["/", "/about", "/merch", "/reviews", "/space", "/video"]
   }
 }
