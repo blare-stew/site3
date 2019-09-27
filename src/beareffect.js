@@ -29,7 +29,7 @@ scene.add(sky)
 scene.background = textureCube
 
 const loader = new GLTFLoader()
-loader.load('/assets/bear.glb', gltf => {
+loader.load('/site/assets/bear.glb', gltf => {
   scene.add(gltf.scene)
 }, undefined, error => console.error(error))
 

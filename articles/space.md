@@ -1,3 +1,5 @@
+<img src="/assets/blarebear.jpg" width="100%" />
+
 ## space rules
 
 1. Do not bring random people over unannounced. 
