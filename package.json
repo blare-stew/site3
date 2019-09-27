@@ -50,8 +50,8 @@
   "prerender": {
     "routes": [
       "/",
-      "/about",
-      "/reviews",
+      "/about.html",
+      "/reviews.html",
       "/space",
       "/video"
     ]
