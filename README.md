@@ -1,6 +1,6 @@
 # site
 
-This is ideas for [the website](https://blarestew.com). For now, you can get to it [here](https://blare.mutant.cloud).
+This is ideas for [the website](https://blarestew.com). For now, you can get to it [here](https://blarestew.com).
 
 ## development
 

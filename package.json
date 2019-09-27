@@ -5,7 +5,7 @@
   "description": "blarestew website",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "rimraf dist && parcel build src/index.html && echo 'blare.mutant.cloud' > dist/CNAME",
+    "build": "rimraf dist && parcel build src/index.html && echo 'blarestew.com' > dist/CNAME",
     "deploy": "ghpages blare-stew/site --path=dist",
     "predeploy": "npm run build"
   },
