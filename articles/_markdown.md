@@ -1,3 +1,9 @@
+---
+title: Markdown Reference
+inMenu: false
+slug: markdown
+---
+
 This a test of all markdown possibilities:
 
 ------------------------------------------

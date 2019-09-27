@@ -4,30 +4,33 @@ import SimpleReactRouter, { Link } from 'simple-react-router'
 import ReactMarkdown from 'react-markdown'
 
 import './index.scss'
-import articles from '../articles/*.md'
+import articles from './articles'
 
 // TODO: make this into a react component
 import './beareffect'
 
-articles.merch = 'https://www.etsy.com/shop/BLARESTEW'
+const Header = ({ active = '' }) => {
+  const menu = articles.filter(a => a.attributes.inMenu)
+  return (
+    <header>
+      <h1><a href='/'>Blare Stew</a></h1>
+      <nav>
+        {menu.map(l => <Link key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
+      </nav>
+    </header>
+  )
+}
 
-const Header = ({ active = '' }) => (
-  <header>
-    <h1><a href='/'>Blare Stew</a></h1>
-    <nav>
-      {Object.keys(articles).filter(l => l[0] !== '_').map(l => <Link key={l} href={articles[l].slice(0, 4) === 'http' ? articles[l] : `/${l}`}>{l}</Link>)}
-    </nav>
-  </header>
-)
-
-const Page = ({ name }) => (
-  <main>
-    <Header active={name} />
-    <article>
-      <ReactMarkdown escapeHtml={false} source={articles[name]} />
-    </article>
-  </main>
-)
+const Page = ({ page }) => {
+  return (
+    <main>
+      <Header active={page.attributes.slug} />
+      <article>
+        <ReactMarkdown escapeHtml={false} source={page.body} />
+      </article>
+    </main>
+  )
+}
 
 const HomePage = () => (
   <main>
@@ -37,10 +40,10 @@ const HomePage = () => (
 
 class App extends SimpleReactRouter {
   routes (map) {
+    const content = articles.filter(l => l.attributes.url.slice(0, 4) !== 'http')
     map('/', HomePage)
-    Object.keys(articles).filter(l => l.slice(0, 4) !== 'http').forEach(l => {
-      const name = l[0] === '_' ? l.substr(1) : l
-      map(`/${name}`, () => <Page name={l} />)
+    content.forEach(l => {
+      map(l.attributes.url, () => <Page page={l} />)
     })
   }
 }

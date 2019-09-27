@@ -1,3 +1,8 @@
+---
+title: ABout Blare Stew
+description: More info about BLaRe SteW
+---
+
 ## Prehistory:
 Unknown
 
