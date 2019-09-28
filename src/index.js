@@ -24,7 +24,7 @@ const Page = ({ page }) => {
         <title>{page.attributes.title}</title>
       </Helmet>
       <header>
-        <h1><a href='/'>Blare Stew</a></h1>
+        <h1><a href='/'>BLARE!!! StEW??</a></h1>
         <nav>
           {menu.map(l => <Link className={l.attributes.slug === page.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
         </nav>
