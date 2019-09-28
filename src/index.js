@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { render } from 'react-dom'
 import SimpleReactRouter, { Link } from 'simple-react-router'
 import ReactMarkdown from 'react-markdown'
@@ -24,7 +24,7 @@ const Header = ({ active }) => {
 
 const Page = ({ page }) => {
   return (
-    <main>
+    <Fragment>
       <Helmet>
         <meta property='og:title' content={page.attributes.title} />
         <meta property='og:description' content={page.attributes.description} />
@@ -36,7 +36,7 @@ const Page = ({ page }) => {
       <article>
         <ReactMarkdown escapeHtml={false} source={page.body} />
       </article>
-    </main>
+    </Fragment>
   )
 }
 
