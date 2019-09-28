@@ -10,29 +10,25 @@ import articles from './articles'
 // TODO: make this into a react component
 import './beareffect'
 
-const Header = ({ active }) => {
-  const menu = articles.filter(a => a.attributes.inMenu)
-  return (
-    <header>
-      <h1><a href='/'>Blare Stew</a></h1>
-      <nav>
-        {menu.map(l => <Link className={l.attributes.slug === active.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
-      </nav>
-    </header>
-  )
-}
-
 const Page = ({ page }) => {
+  const menu = articles.filter(a => a.attributes.inMenu)
   return (
     <Fragment>
       <Helmet>
+        <meta property='og:site_name' content='Blare Stew' />
         <meta property='og:title' content={page.attributes.title} />
         <meta property='og:description' content={page.attributes.description} />
         <meta property='og:image' content={page.attributes.image} />
         <meta property='og:url' content={`https://blarestew.com${page.attributes.url}`} />
+        <link rel='canonical' href={`https://blarestew.com${page.attributes.url}`} />
         <title>{page.attributes.title}</title>
       </Helmet>
-      <Header active={page} />
+      <header>
+        <h1><a href='/'>Blare Stew</a></h1>
+        <nav>
+          {menu.map(l => <Link className={l.attributes.slug === page.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
+        </nav>
+      </header>
       <article>
         <ReactMarkdown escapeHtml={false} source={page.body} />
       </article>
