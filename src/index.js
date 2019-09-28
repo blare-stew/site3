@@ -10,13 +10,13 @@ import articles from './articles'
 // TODO: make this into a react component
 import './beareffect'
 
-const Header = ({ active = '' }) => {
+const Header = ({ active }) => {
   const menu = articles.filter(a => a.attributes.inMenu)
   return (
     <header>
       <h1><a href='/'>Blare Stew</a></h1>
       <nav>
-        {menu.map(l => <Link className={l.slug === active ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
+        {menu.map(l => <Link className={l.attributes.slug === active.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
       </nav>
     </header>
   )
@@ -32,7 +32,7 @@ const Page = ({ page }) => {
         <meta property='og:url' content={`https://blarestew.com${page.attributes.url}`} />
         <title>{page.attributes.title}</title>
       </Helmet>
-      <Header active={page.attributes.slug} />
+      <Header active={page} />
       <article>
         <ReactMarkdown escapeHtml={false} source={page.body} />
       </article>
@@ -40,19 +40,16 @@ const Page = ({ page }) => {
   )
 }
 
-const HomePage = () => (
-  <main>
-    <Header />
-  </main>
-)
+const homeArticle = articles.find(l => l.attributes.slug === 'home')
 
 class App extends SimpleReactRouter {
   routes (map) {
-    const content = articles.filter(l => l.attributes.url.slice(0, 4) !== 'http')
-    map('/', HomePage)
-    content.forEach(l => {
-      map(l.attributes.url, () => <Page page={l} />)
-    })
+    map('/', () => <Page page={homeArticle} />)
+    articles
+      .filter(l => l.attributes.url.slice(0, 4) !== 'http' && l.attributes.slug !== 'home')
+      .forEach(l => {
+        map(l.attributes.url, () => <Page page={l} />)
+      })
   }
 }
 
