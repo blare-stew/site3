@@ -69,7 +69,8 @@ article {
   padding: 10px;
 }
 
-.warning {
+code.language-warning {
+  display:block;
   background: white;
   color: #333;
   margin: 0.5em 0;
@@ -77,16 +78,24 @@ article {
   border-spacing: 10px;
   font-weight: bold;
   position: relative;
+  white-space: break-spaces;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 
   &:after {
-      position: absolute;
-      top: 5px;
-      left: 5px;
-      right: 5px;
-      bottom: 5px;
-      width: calc(100% - 10px); 
-      height: calc(100% - 10px);
-      border: 3px solid #333;
-      content: ' ';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border: 3px solid #333;
+    content: ' ';
+  }
+}
+
+article {
+  img {
+    width: 100%;
   }
 }

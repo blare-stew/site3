@@ -4,12 +4,12 @@ menuOrder: 7
 slug: reviews.html
 ---
 
-<img src="assets/loud tasting and not really edible.jpg" width="100%" alt="So loud it's not really edible." />
+![So loud it's not really edible.](assets/loud_tasting_and_not_really_edible.jpg)
 
-<img src="assets/Productreview1.jpg" width="100%" alt="I'm pretty sure it's literally puke." />
+![I'm pretty sure it's literally puke.](assets/Productreview1.jpg)
 
-<img src="assets/Stewed my life up.jpg" width="100%" alt="It completely stewed my life up." />
+![It completely stewed my life up.](assets/Stewed_my_life_up.jpg)
 
-<img src="assets/What the hell is this.jpg" width="100%" alt="I have no idea what is going on here." />
+![I have no idea what is going on here.](assets/What_the_hell_is_this.jpg)
 
-<img src="assets/Icanonlygetitinto2orifices.jpg" width="100%" alt="I can only get it in 2 orifices." />
+![I can only get it in 2 orifices.](assets/Icanonlygetitinto2orifices.jpg)
