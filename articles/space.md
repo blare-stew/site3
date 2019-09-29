@@ -1,5 +1,6 @@
 ---
 menuTitle: SPACE!!!
+menuOrder: 15
 title: Blare's hAve spce Rules
 ---
 
