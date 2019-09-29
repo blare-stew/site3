@@ -103,9 +103,7 @@ Like links, Images also have a footnote style syntax, with a reference later in 
 ![Stormtroopocat][4]
 ![Alt text][5]
 
-You can also use an `img` html tag, if you need to control it more:
-
-<img src='assets/blarebear.jpg' width="100%" />
+By default, the image will be 100%-width.
 
 ------------------------------------------
 
