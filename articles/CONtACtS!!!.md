@@ -3,6 +3,6 @@ menuOrder: 50
 inMenu: true
 ---
 
-<a href="mailto:blarestew@gmail.com">EMAIL!!!</a>
+[EMAIL!!!](mailto:blarestew@gmail.com)
 
-<a href="https://www.facebook.com/BlareStew">FACEBOOK!!!</a>
+[FACEBOOK!!!](https://www.facebook.com/BlareStew)
