@@ -6,7 +6,7 @@ title: Blare's hAve spce Rules
 
 ## 4 SPACE RULES!!!
 
-#4! GET OUT!!!
+[#4! GET OUT!!!](https://www.facebook.com/groups/1306565279495462/)
 
 #4! DO NOT SPEAK ILL OF DOG!! EVER!!!
 
