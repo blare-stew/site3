@@ -5,7 +5,7 @@ description: More info about BLaRe SteW
 slug: about.html
 ---
 
-##BLARE!!! StEW?? IS A MISSION!!!##
+### BLARE!!! StEW?? IS A MISSION!!!
 
  A MISSION TO SEE HOW MUCH INCREDIBLY LOUD SOUNDS THAT WE CAN FIT INTO A LIQUID AND STILL HAVE IT BE EDIBLE!!
 
