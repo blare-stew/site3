@@ -167,6 +167,16 @@ console.log(foo(5));
 ------------------------------------------
 
 
+## Warning
+
+You can add warning labels liek this:
+
+```warning
+INGREDIENTS: INCESSANT SCREAMS, INDUSTRIAL BYPRODUCT (BLEARS), FUNK, ROCK, GUNFIRE, NUCLEAR EXPLOSIONS, EARTHQUAKES, FIRECRACKERS, VARIOUS HORNS (TRUMPET, FOG, TRUCK, TUBA, ANTLER), SONIC BOOMS, CHAINSAWS, BALLOONS POPPING, THUNDER, CHIMES, BELLS, BUZZERS, GONGS, LEAFBLOWERS, VOLCANIC ERUPTIONS, (CLASSIFIED). DRAG RACING, DRUMS, CITY TRAFFIC, BULLDOZER, OFFICE WORK, AMPLIFIERS, GIBBERISH, BANGS, CHOIRS, BOOMS, POPS, MAXWELL'S SILVER HAMMER, JET NOISES, GLITTER, BARBARIAN HORDES, THE SUN, RAINBOWS, FLAMBOYANCE, BRIGHT LIGHTS
+```
+
+------------------------------------------
+
 [1]: http://dev.nodeca.com
 [2]: http://nodeca.github.io/pica/demo/ "title text!"
 [3]: https://octodex.github.com/images/dinotocat.png
