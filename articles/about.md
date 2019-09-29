@@ -1,6 +1,7 @@
 ---
 title: ABout Blare Stew
 menuTitle: ABOUt!!!
+menuOrder: 5
 description: More info about BLaRe SteW
 slug: about.html
 ---
