@@ -1,4 +1,5 @@
 ---
+menuTitle: SPACE!!!
 title: Blare's hAve spce Rules
 ---
 
