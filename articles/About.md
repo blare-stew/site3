@@ -1,6 +1,6 @@
 ---
 title: ABout Blare Stew
-menuTitle:ABOUt!!!
+menuTitle: ABOUt!!!
 description: More info about BLaRe SteW
 slug: about.html
 ---
