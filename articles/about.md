@@ -8,7 +8,7 @@ slug: about.html
 
 # BLARE!!! StEW?? IS A MISSION!!!
 
-![can explosion](assets/canexplosion.jpg)
+![can explosion](assets/canexplosion.png)
 
  A MISSION TO SEE HOW MUCH INCREDIBLY LOUD SOUNDS THAT WE CAN FIT INTO A LIQUID AND STILL HAVE IT BE EDIBLE!!
 
