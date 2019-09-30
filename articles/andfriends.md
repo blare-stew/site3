@@ -1,8 +1,6 @@
----
-title: 
+--- 
 menuTitle: & FRIENDS!!!
 menuOrder: 200
-inMenu: true
 ---
 
 DAVID KONSUMER
