@@ -1,5 +1,5 @@
 ---
-menuTitle:&FRIENDS!!!
+menuTitle: FRIENDS!!!
 menuOrder: 200
 inMenu: true
 ---
