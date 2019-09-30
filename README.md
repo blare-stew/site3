@@ -2,8 +2,6 @@
 
 ![build status](https://travis-ci.org/blare-stew/site.svg?branch=master)
 
-This is ideas for [the website](https://blarestew.com). You can get to it [here](https://blarestew.com).
-
 You can edit articles in `articles/`, and it will add them to the menu. Put your assets in `articles/assets/` and they will be available onsite as `/assets/`.
 
 ## meta-data
