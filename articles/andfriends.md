@@ -6,5 +6,5 @@ inMenu: true
 
 DAVID KONSUMER
 ![Davide Konsumer](assets/Konsumer.png)
-Software Engineer obsessed with quality, modularity, and eduation.
-[SOUNDCLOUD!!!](soundcloud.com/deadkonsumer) [GITHUB!!!](github.com/konsumer)
+SOFTWARE ENGINEER OBSESSED WITH QUALITY, MODULARITY, AND EDUCATION!!!
+[SOUNDCLOUD!!!](http://www.soundcloud.com/deadkonsumer) [GITHUB!!!](http://github.com/konsumer)
