@@ -26,7 +26,7 @@ const Page = ({ page }) => {
       <header>
         <h1><a href='/'>BLARE!!! StEW??</a></h1>
         <nav>
-          {menu.map(l => <Link className={l.attributes.slug === page.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url}>{l.attributes.menuTitle}</Link>)}
+          {menu.map(l => <Link className={l.attributes.slug === page.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url} dangerouslySetInnerHTML={{ __html: l.attributes.menuTitle }} />)}
         </nav>
       </header>
       <article>

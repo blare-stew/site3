@@ -6,6 +6,16 @@ import rawArticles from '../articles/*.md'
 
 const defaultMeta = fm(rawArticles['_meta']).attributes
 
+const encode = (str) => {
+  var buf = []
+
+  for (var i = str.length - 1; i >= 0; i--) {
+    buf.unshift(['&#', str[i].charCodeAt(), ';'].join(''))
+  }
+
+  return buf.join('')
+}
+
 const processArticle = (name, article) => {
   article.attributes = { ...defaultMeta, ...article.attributes }
   if (!article.attributes.slug) {
@@ -20,6 +30,7 @@ const processArticle = (name, article) => {
   if (!article.attributes.menuTitle) {
     article.attributes.menuTitle = name.replace(/_/g, ' ').trim()
   }
+  article.attributes.menuTitle = encode(article.attributes.menuTitle)
   article.attributes.menuOrder = article.attributes.menuOrder || 0
 
   article.body = article.body.replace(/assets\//g, '/assets/')
