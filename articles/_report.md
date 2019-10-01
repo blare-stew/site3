@@ -1,0 +1,45 @@
+---
+title: Rep0t a data-crime
+slug: report.html
+---
+
+```warning
+WARNING: WE TAKE DATA-CROMES VERY SERIOUS. REPORT ANY DATA-CROIMES HERE, AND SWIFT JUSTICE WITLL BE DISPATCHED.
+```
+
+WHAT IS YOUR FULL NAME?
+<input />
+
+WHAT IS YOUR FACEBOOK NAME?
+<input />
+
+WHAT IS YOUR EMAIL?
+<input />
+
+WHEN IS YOUR BIRTHDAY?
+<input type="date" value="1966-06-06" />
+
+WHAT IS YOUR CITY?
+<input />
+
+WHAT IS YOUR SOCIAL SECURITY NUMBER?
+<input />
+
+WHAT IS YOUR PROMARY CREDIT-CARD NUMBER <small>(FOR DATA-CROIME-VERIFICATION PURPOSES)</small>
+<input />
+
+WHO WOULD YOU LIEK TO REPORT?
+<input />
+
+WHAT IS THE NAME OF YOUR FAVORITE CHILD?
+<input />
+
+URL OF THA DATA-CROIME?
+<input />
+
+NATURE OF THA DATA-CROIME?
+<textarea />
+
+<a href="/reported">
+<button>REPORT</button>
+</a>
