@@ -23,7 +23,7 @@ ___
 
 PLEASE RECORD ALL BEINGS INVOLVED!!! <br>
 
-NAME OF BEING #4?!?!!! <br>
+FULL NAME OF BEING #4?!?!!! <br>
 FIRST: <input /> MIDDLE: <input /> LAST: <input /> <br>
 
 THEIR SPECIES?!?!? <br>
@@ -100,7 +100,8 @@ WHAT IS YOUR DRIVERS LICENSE NUMBER?!??!? <br>
 <input /> <br>
 
 WHAT IS YOUR ADDRESS?!?!?? <br>
-STREET: <input /> CITY: <input /> STATE/REGION: <input /> <br> 
+STREET: <input /> <br>
+CITY: <input /> STATE/REGION: <input /> COUNTRY: <input /> ZIP: <input /> <br> 
 
 WHAT IS YOUR PHONE NUMBER??!? <br>
 <input type="tel" /> <br>
