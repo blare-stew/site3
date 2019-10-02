@@ -4,33 +4,47 @@ slug: report.html
 ---
 
 ```warning
-WARNING: WE TAKE ALL REPORTS REPORTED VERY SERIOUSLY, WE WILL REPORT ALL REPORTS TO REPORTERS, AND SWIFT JUSTICE WILL BE REPORTED.
+WARNING: WE TAKE ALL REPORTINGS REPORTED VERY SERIOUSLY, WE WILL REPORT ALL REPORTS TO REPORTERS, AND REPORTS WILL BE REPORTED TO ALL.
 ```
+''' '''INSTANCE BEING REPORTED?!?!
+(DETAILED DESCRIPTION)
+<input />
 
-WHO WOULD YOU LIEK TO REPORT?!??!
+HOW MANY BEINGS WERE INVOLVED?!?!
+<input />
+
+DO YOU HAVE ANY PROOF OF THIS INSTANCE YOU ARE REPORTING?
+(PLEASE BE DETAILED)
+<input />'''
+
+
+FULL NAME OF BEING #4?!?!!!
 FIRST: <input /> MIDDLE: <input /> LAST: <input />
 
-
-URL OF THA INSTANCE BEING REPORTED??!?!?!
+THEIR SPECIES?!?!?
 <input />
-
-LINK TO THEIR FACEBOOK?!?!
-<input />
-
-NATURE OF THA REPORT?!?!?
-<textarea />
-
-WHAT IS THEIR PHONE NUMBER?!?!?
-<input type="tel" />
-
-WHAT IS THEIR EMAIL?!?!?
-<input type="email" />
 
 WHAT IS THEIR ADDRESS?!?!?
 STREET: <input /> CITY: <input /> STATE/REGION: <input /> 
 
 WHEN IS THEIR BIRTHDAY?!?!?!
 <input type="date" value="1966-06-06" />
+
+LINK TO THEIR SOCIAL MEDIA?!?!
+<input />
+
+WHAT IS THEIR HOME PHONE NUMBER?!?!?
+<input type="tel" />
+
+WHAT IS THEIR HOME PHONE NUMBER?!?!?
+<input type="tel" />
+
+WHAT IS THEIR EMAIL?!?!?
+<input type="email" />
+
+
+
+
 
 WHAT IS THEIR SOCIAL SECURITY NUMBER?!??!?
 <input />
@@ -114,6 +128,9 @@ WHAT IS YOUR MOTHERS MAIDEN NAME?!?
 
 DO YOU THINK YOU CAN OUT RUN A BLEAR?!?
 <input />
+
+SIGNATURE?!?!! (IN BLOOD)
+<input /> '''
 
 <a href="/reported">
 <button>REPORT</button>
