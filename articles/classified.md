@@ -4,9 +4,13 @@ description: Super-secret BlAre-relatedInformation
 slug: classified.html
 inMenu: false
 image: https://blarestew.com/assets/GETOUT0002.jpg
+classified: true
 ---
 
-# TOP SECRET
+# Department of HOME BLARE SECURITY
+
+---
+
 
 ## Prehistory:
 Unknown
@@ -17,7 +21,7 @@ The Reptilians were basically a dinosaur-like warrior society that spanned all o
 The kingdom of Reptilians was controlled for many millions of years by Santan (immortal) who was definitely the strongest of the Reptilians, but also reinforced his rule through tricks and manipulation when challenged because he is also one of the most intelligent.
 
 ## Age of Resistance:
-A new groups started forming inside the kingdom known as the ancient ones to the Blears. Basically small rodent like creatures much smaller than Blears started forming an underground movement that gave a place for the Blears to start gaining a foothold. A belief in their highest potential form develops known as “Dog”.
+A new groups started forming inside the kingdom known as the ancient ones to the *Blears*. Basically small *rodent like creatures* much smaller than Blears started forming an underground movement that gave a place for the Blears to start gaining a foothold. A belief in their highest potential form develops known as *“Dog”*.
 
 ## Age of Blears:
  Blears were spawned and completely obliterated the entire society of Reptilians pushing what was left of them to the north hold which is basically an underground layer where the Reptilians could survive the harsh climate due to volcanic activity. The North Hole has been turned is a hellish version of Santa’s village..

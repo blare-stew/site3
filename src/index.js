@@ -29,7 +29,7 @@ const Page = ({ page }) => {
           {menu.map(l => <Link className={l.attributes.slug === page.attributes.slug ? 'active' : ''} key={l.attributes.slug} href={l.attributes.url} dangerouslySetInnerHTML={{ __html: l.attributes.menuTitle }} />)}
         </nav>
       </header>
-      <article>
+      <article className={page.attributes.classified ? 'classified' : 'unclassified'}>
         <ReactMarkdown escapeHtml={false} source={page.body} />
       </article>
     </Fragment>

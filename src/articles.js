@@ -32,6 +32,7 @@ const processArticle = (name, article) => {
   }
   article.attributes.menuTitle = encode(article.attributes.menuTitle)
   article.attributes.menuOrder = article.attributes.menuOrder || 0
+  article.attributes.classified = !!article.attributes.classified
 
   article.body = article.body.replace(/assets\//g, '/assets/')
 
