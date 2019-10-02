@@ -7,28 +7,28 @@ image: https://blarestew.com/assets/GETOUT0002.jpg
 classified: true
 ---
 
-# Department of HOME BLARE SECURITY
+## Department of HOME BLARE SECURITY
 
 ---
 
 
-## Prehistory:
+### Prehistory:
 Unknown
 
-## Age of the Reptilians:
+### Age of the Reptilians:
 The Reptilians were basically a dinosaur-like warrior society that spanned all of pangea.. Leaders were determined by the strongest in gladiatorial competitions and that leader rules with absolute authority..
 
 The kingdom of Reptilians was controlled for many millions of years by Santan (immortal) who was definitely the strongest of the Reptilians, but also reinforced his rule through tricks and manipulation when challenged because he is also one of the most intelligent.
 
-## Age of Resistance:
+### Age of Resistance:
 A new groups started forming inside the kingdom known as the ancient ones to the *Blears*. Basically small *rodent like creatures* much smaller than Blears started forming an underground movement that gave a place for the Blears to start gaining a foothold. A belief in their highest potential form develops known as *“Dog”*.
 
-## Age of Blears:
+### Age of Blears:
  Blears were spawned and completely obliterated the entire society of Reptilians pushing what was left of them to the north hold which is basically an underground layer where the Reptilians could survive the harsh climate due to volcanic activity. The North Hole has been turned is a hellish version of Santa’s village..
 
 Blear society thrived and became much like modern humans of the 1950’s with more advanced technology that borders on some mysterious magic. Almost everything that has happened in our world has happened in there world, but it was Blears who did it instead. Humans in their dimension are basically wild animals.
 
-## Modern:
+### Modern:
 Santan locked away in the North Hole for a couple million years starts hatching a plan with stolen Blear technology..
 
 Santan first starts by building an interdimensional portal and forming an alliance with humans of a different dimension to dominate their world for shared benefit thus setting a trap for the Blears to be sprung..
