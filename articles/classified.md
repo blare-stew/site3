@@ -7,7 +7,7 @@ image: https://blarestew.com/assets/GETOUT0002.jpg
 classified: true
 ---
 
-![BLARE STEW LOGO](assets/LOGO00001.png  style="width: 100px")
+![BLARE STEW LOGO](assets/LOGO00001.png  style=width: 100px)
 
 
 ---
