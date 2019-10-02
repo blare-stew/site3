@@ -7,7 +7,8 @@ image: https://blarestew.com/assets/GETOUT0002.jpg
 classified: true
 ---
 
-## OFFICIAL GOVERNMENT DOCUMENT
+![BLARE STEW LOGO](assets/LOGO00001.png)
+
 
 ---
 
