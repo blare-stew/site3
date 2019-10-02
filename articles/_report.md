@@ -9,136 +9,137 @@ WARNING: WE TAKE ALL REPORTINGS REPORTED VERY SERIOUSLY, WE WILL REPORT ALL REPO
 
 
 INSTANCE BEING REPORTED?!?! <br>
-(DETAILED DESCRIPTION)
-<input /> 
+(DETAILED DESCRIPTION) <br>
+<input /> <br>  
 
-HOW MANY BEINGS WERE INVOLVED?!?!
-<input />
+HOW MANY BEINGS WERE INVOLVED?!?! <br>
+<input /> <br>
 
-DO YOU HAVE ANY PROOF OF THIS INSTANCE YOU ARE REPORTING?
-(PLEASE BE DETAILED)
-<input />
+DO YOU HAVE ANY PROOF OF THIS INSTANCE YOU ARE REPORTING? <br>
+(PLEASE BE DETAILED) <br>
+<input /> <br>
+ 
+___
+
+PLEASE RECORD ALL BEINGS INVOLVED!!! <br>
+
+NAME OF BEING #4?!?!!! <br>
+FIRST: <input /> MIDDLE: <input /> LAST: <input /> <br>
+
+THEIR SPECIES?!?!? <br>
+<input /> <br>
+
+WHEN IS THEIR BIRTHDAY?!?!?! <br>
+<input type="date" value="1966-06-06" /> <br>
+
+WHAT IS THEIR SOCIAL SECURITY NUMBER?!??!? <br>
+<input /> <br>
+
+WHAT IS THEIR DRIVERS LICENSE NUMBER?!??!? <br>
+<input /> <br>
+
+WHAT IS THEIR ADDRESS?!?!? <br>
+STREET: <input /> <br>
+CITY: <input /> STATE/REGION: <input /> COUNTRY: <input /> ZIPCODE: <input /> <br>
+
+WHAT IS THEIR HOME PHONE NUMBER?!?!? <br>
+<input type="tel" /> <br>
+
+WHAT IS THEIR MOBILE PHONE NUMBER?!?!? <br>
+<input type="tel" /> <br>
+
+WHAT IS THEIR EMAIL?!?!? <br>
+<input type="email" /> <br>
+
+LINKS TO THEIR SOCIAL MEDIA?!?! <br>
+<input /> <br>
+
+WHO WAS THEIR LAST 3 EMPLOYERS?!?!?! <br>
+<input /> <input /> <input /> <br>
+
+WHO IS THEIR CURRENT EMPLOYER?!?!?! <br>
+<input /> <br>
+
+WHAT POSITION ARE THEY APPLYING FOR??!?! <br>
+<input /> <br>
+
+WHAT DATE CAN THEY START?!?!! <br>
+<input type="date" value="1966-06-06" /> <br>
+
+WHAT IS THEIR PROMARY CREDIT-CARD NUMBER?!?!? <br> 
+<small>(FOR DATA-CROIME-VERIFICATION PURPOSES ONLY)</small> <br>
+<input /> <br>
+
+WHAT IS THE NAME OF THEIR FAVORITE CHILD??!?! <br>
+<input /> <br>
+
+WHAT IS THE NAME OF THEIR FIRST PET??!? <br>
+<input /> <br>
+
+WHAT IS THEIR MOTHERS MAIDEN NAME?!? <br>
+\<input /> <br>
+
+DO YOU THINK THEY CAN RUN FASTER THAN A BLEAR!?!? <br>
+<input /> <br>
 
 ___
 
-PLEASE RECORD ALL BEINGS INVOLVED!!!
+WHAT IS YOUR FULL NAME??!? <br>
+FIRST: <input /> MIDDLE: <input /> LAST: <input /> <br>
 
-NAME OF BEING #4?!?!!!
-FIRST: <input /> MIDDLE: <input /> LAST: <input />
+WHAT SPECIES ARE YOU?!?!? <br>
+<input /> <br>
 
-THEIR SPECIES?!?!?
-<input />
+WHEN IS YOUR BIRTHDAY?!!?! <br>
+<input type="date" value="1966-06-06" /> <br>
 
-WHEN IS THEIR BIRTHDAY?!?!?!
-<input type="date" value="1966-06-06" />
+WHAT IS YOUR SOCIAL SECURITY NUMBER?!??! <br>
+<input /> <br>
+ 
+WHAT IS YOUR DRIVERS LICENSE NUMBER?!??!? <br>
+<input /> <br>
 
-WHAT IS THEIR SOCIAL SECURITY NUMBER?!??!?
-<input />
+WHAT IS YOUR ADDRESS?!?!?? <br>
+STREET: <input /> CITY: <input /> STATE/REGION: <input /> <br> 
 
-WHAT IS THEIR DRIVERS LICENSE NUMBER?!??!?
-<input />
+WHAT IS YOUR PHONE NUMBER??!? <br>
+<input type="tel" /> <br>
 
-WHAT IS THEIR ADDRESS?!?!?
-STREET: <input /> CITY: <input /> STATE/REGION: <input /> 
+WHAT IS YOUR EMAIL??!??! <br>
+<input type="email" /> <br>
 
-WHAT IS THEIR HOME PHONE NUMBER?!?!?
-<input type="tel" />
+WHAT ARE YOUR SOCIAL MEDIA ACCOUNTS?!??! <br>
+<input /> <br>
 
-WHAT IS THEIR MOBILE PHONE NUMBER?!?!?
-<input type="tel" />
+WHO WAS YOUR LAST 3 EMPLOYERS?!?!?! <br>
+<input /> <input /> <input /> <br>
 
-WHAT IS THEIR EMAIL?!?!?
-<input type="email" />
+WHO IS YOUR CURRENT EMPLOYER?!?!?! <br>
+<input /> <br>
 
-LINKS TO THEIR SOCIAL MEDIA?!?!
-<input />
+WHAT POSITION ARE YOU APPLYING FOR??!?! <br>
+<input /> <br>
 
-WHO WAS THEIR LAST 3 EMPLOYERS?!?!?!
-<input /> <input /> <input />
+WHAT DATE CAN YOU START?!?!! <br>
+<input type="date" value="1966-06-06" /> <br>
 
-WHO IS THEIR CURRENT EMPLOYER?!?!?!
-<input />
+WHAT IS YOUR PROMARY CREDIT-CARD NUMBER?!?! <br> 
+<small>(FOR DATA-CROIME-VERIFICATION PURPOSES ONLY)</small> <br>
+<input /> <br>
 
-WHAT POSITION ARE THEY APPLYING FOR??!?!
-<input />
+WHAT IS THE NAME OF YOUR FAVORITE CHILD??!?!<br> 
+<input /> <br>
 
-WHAT DATE CAN THEY START?!?!!
-<input type="date" value="1966-06-06" />
+WHAT IS THE NAME OF YOUR FIRST PET??!? <br>
+<input /> <br>
 
-WHAT IS THEIR PROMARY CREDIT-CARD NUMBER?!?!? 
-<small>(FOR DATA-CROIME-VERIFICATION PURPOSES ONLY)</small>
-<input />
+WHAT IS YOUR MOTHERS MAIDEN NAME?!? <br>
+<input /> <br>
 
-WHAT IS THE NAME OF THEIR FAVORITE CHILD??!?!
-<input />
+DO YOU THINK YOU CAN OUT RUN A BLEAR?!? <br>
+<input /> <br>
 
-WHAT IS THE NAME OF THEIR FIRST PET??!?
-<input />
-
-WHAT IS THEIR MOTHERS MAIDEN NAME?!?
-\<input />
-
-DO YOU THINK THEY CAN RUN FASTER THAN A BLEAR!?!?
-<input />
-
-___
-
-WHAT IS YOUR FULL NAME??!?
-FIRST: <input /> MIDDLE: <input /> LAST: <input />
-
-WHAT SPECIES ARE YOU?!?!?
-<input />
-
-WHEN IS YOUR BIRTHDAY?!!?!
-<input type="date" value="1966-06-06" />
-
-WHAT IS YOUR SOCIAL SECURITY NUMBER?!??!
-<input />
-
-WHAT IS YOUR DRIVERS LICENSE NUMBER?!??!?
-<input />
-
-WHAT IS YOUR ADDRESS?!?!??
-STREET: <input /> CITY: <input /> STATE/REGION: <input /> 
-
-WHAT IS YOUR PHONE NUMBER??!?
-<input type="tel" />
-
-WHAT IS YOUR EMAIL??!??!
-<input type="email" />
-
-WHAT ARE YOUR SOCIAL MEDIA ACCOUNTS?!??!
-<input />
-
-WHO WAS YOUR LAST 3 EMPLOYERS?!?!?!
-<input /> <input /> <input />
-
-WHO IS YOUR CURRENT EMPLOYER?!?!?!
-<input />
-
-WHAT POSITION ARE YOU APPLYING FOR??!?!
-<input />
-
-WHAT DATE CAN YOU START?!?!!
-<input type="date" value="1966-06-06" />
-
-WHAT IS YOUR PROMARY CREDIT-CARD NUMBER?!?! 
-<small>(FOR DATA-CROIME-VERIFICATION PURPOSES ONLY)</small>
-<input />
-
-WHAT IS THE NAME OF YOUR FAVORITE CHILD??!?!
-<input />
-
-WHAT IS THE NAME OF YOUR FIRST PET??!?
-<input />
-
-WHAT IS YOUR MOTHERS MAIDEN NAME?!?
-\<input />
-
-DO YOU THINK YOU CAN OUT RUN A BLEAR?!?
-\<input />
-
-SIGNATURE?!?!! (IN BLOOD)
+SIGNATURE?!?!! (IN BLOOD) <br>
 <input />
 
 <a href="/reported">
