@@ -6,8 +6,8 @@ inMenu: false
 image: https://blarestew.com/assets/GETOUT0002.jpg
 classified: true
 ---
-articles/assets/LOGO00001.png
-<img src="https://github.com/blare-stew/site/tree/master/articles/assets/LOGO00001.png" style="width: 100px!important" />
+
+![BLARE STEW LOGO](assets/LOGO00001.png)
 
 
 ---
