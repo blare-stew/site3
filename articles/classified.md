@@ -9,10 +9,6 @@ classified: true
 
 ![BLARE STEW LOGO](assets/LOGO00001.png)
 
-
----
-
-
 ### Prehistory:
 Unknown
 
