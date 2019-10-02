@@ -30,6 +30,8 @@ body {
 
   em {
     background: black;
+    margin-top: 2px;
+    display:inline-block;
   }
 
   &:after {
@@ -37,7 +39,7 @@ body {
     width: 275px;
     height: 275px;
     position: absolute;
-    bottom: 10px;
+    top: 10px;
     right: 10px;
     content: "";
     opacity: 0.8;
